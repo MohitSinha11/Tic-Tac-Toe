@@ -47,7 +47,7 @@ function checkGameOver() {
       gameGrid[position[1]] === gameGrid[position[2]]
     ) {
       if (gameGrid[position[0]] === "X") answer = "X";
-      else answer = "Y";
+      else answer = "O";
       boxes.forEach((box) => {
         box.style.pointerEvents = "none";
       });
